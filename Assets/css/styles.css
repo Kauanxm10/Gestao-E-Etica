@@ -1,0 +1,188 @@
+form#form
+{
+    background-color: rgb(201, 201, 201);
+    border-radius: 30px;
+    padding: 50px;
+}
+
+iframe
+{
+    background-color: rgb(201, 201, 201);
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.container2 
+{
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    height: 60vh;
+    /* Define a altura da janela de visualização */
+}
+
+.rounded-image 
+{
+    box-shadow: 0 0 50px rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 300px;
+    /* Largura desejada */
+    height: 300px;
+    /* Altura desejada */
+    object-fit: cover;
+    /* Isso garante que a imagem preencha o espaço redondo */
+    float: right;
+}
+
+i#dark
+{
+    padding-left: 120px;
+}
+
+h1
+{
+    background-color: rgba(202, 202, 202, 0);
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(0, 0, 0);
+}
+
+#carouselExampleCaptions 
+{
+    border-radius: 30px;
+    margin: auto;
+    width: 560px; 
+    height: 315px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+#hab
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#h4
+{
+    font-family: 'Times New Roman', Times, serif, 'Times New Roman', Times, serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+#h2
+{
+    font-family: 'Times New Roman', Times, serif, 'Times New Roman', Times, serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    height: 40vh;
+    color: rgb(255, 255, 255);
+}
+
+
+
+section#secao1
+{
+    padding-top: 20px;
+}
+
+p
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+a#a
+{
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif, Times, serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Courier, monospace, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.parallax 
+{
+
+    margin-top: 1.5rem;
+
+    /* The image used */
+    background-image: url("../img/paralax.png");
+
+    /* Set a specific height */
+    min-height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-header
+{
+    /* margin-top: 1.5rem; */
+
+     /* The image used */
+    background-image: url("../img/paralax.png");
+
+    /* Set a specific height */
+    min-height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#card
+{
+    background-color: rgba(128, 128, 128, 0.411);
+}
+
+#border
+{
+    border-color: rgba(0, 0, 0, 0.575);
+    border-width: 3px;
+    border-style: double;
+    border-radius: 10px;
+}
+  
+.navcor
+{
+    /* background-color: rgb(63, 0, 0); 
+    padding: 10px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset; */
+
+    background-color: transparent;
+    transition: background-color 0.5s ease-in-out;
+
+}
+
+.navbar.scrolled
+{
+    background-color: rgb(63, 0, 0); 
+    padding: 10px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+img
+{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 340px;
+}
